@@ -83,6 +83,7 @@ def gen(data,cross_prob,mut_prob):
     # print the GA's best solution; a solution is valid only if there are no collisions
     return ga.best_individual()
 if __name__ == '__main__':
+    
     n=100
     data=[np.random.randint(2) for i in range(n)]
 
